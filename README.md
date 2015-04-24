@@ -1,32 +1,45 @@
-Vernier Interface Shield
-========================
+SparkFun Vernier Interface Sheild Arduino Library
+=================================================
 
-[![Vernier Interface Shield](https://cdn.sparkfun.com//assets/parts/9/7/2/4/12858-01.jpg)
-*Vernier Interface Shield (DEV-12858)*](https://www.sparkfun.com/products/12858)
+![Vernier Interface Shield](https://cdn.sparkfun.com//assets/parts/9/7/2/4/12858-01.jpg)
 
-This shield enables Arduino Uno footprint compatible boards to be connected to Vernier sensors. 
-
+[*SparkFun Vernier Interface Shield*](https://www.sparkfun.com/products/12858)
 
 Repository Contents
 -------------------
 
-* **/Hardware** - Eagle PCB layout files
-* **/Libraries** - Arduino library for using the Vernier Shield
-* **/Production Files** - Files to support SparkFun production
+* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
+* **/src** - Source files for the library (.cpp, .h).
+* **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE. 
+* **library.properties** - General library properties for the Arduino package manager. 
 
-Product Versions
-----------------
-* [DEV-11897](https://www.sparkfun.com/products/retired/11897)- Hardware version 1.1. Retired. 
+Documentation
+--------------
+
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
+* **[Product Repository](https://github.com/sparkfun/Vernier_Interface_Shield)** - Main repository (including hardware files).
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/vernier-shield-hookup-guide?_ga=1.3574256.1126191215.1366741676)** - Basic hookup guide for the SparkFun Vernier Interface Shield.
+
+Products that use this Library 
+---------------------------------
+
+* [DEV-12858](https://www.sparkfun.com/products/12858)- SparkFun Vernier Interface Shield
 
 Version History
 ---------------
-* [v1.2](https://github.com/sparkfun/Vernier_Interface_Shield/tree/v1.2) -GitHub version 1.2
-* [v1.1](https://github.com/sparkfun/Vernier_Interface_Shield/tree/v1.1) -GitHub version 1.1
 
 
 License Information
 -------------------
-The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
-The code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+
+This product is _**open source**_! 
+
+The **code** is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+
+Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics and release anything derivative under the same license.
 
 Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
+
+
