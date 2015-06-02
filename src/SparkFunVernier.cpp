@@ -57,33 +57,30 @@ Vernier::Vernier()
 
 }
 
-Vernier::readAnalog1();
+int Vernier::readAnalog1()
 {
 	int sensorVal = analogRead(bta1.input1Pin);
-	analog1 = sensorVal * lsb_to_5v;
+	int analog1 = sensorVal * lsb_to_5v;
 	return sensorVal;
 }
 
-Vernier::readAnalog2();
+int Vernier::readAnalog2()
 {
 	int sensorVal = analogRead(bta2.input1Pin);
-	analog2 = sensorVal * lsb_to_5v;
+	int analog2 = sensorVal * lsb_to_5v;
 	return sensorVal;
 }
 
-Vernier::readAnalog1_10V();
+int Vernier::readAnalog1_10V()
 {
 	int sensorVal = analogRead(bta1.input2Pin);
-	analog1_10V = sensorVal * lsb_to_20v;
+	int analog1_10V = sensorVal * lsb_to_20v;
 	return sensorVal;
 }
 
-Vernier::readAnalog2_10V();
+int Vernier::readAnalog2_10V()
 {
 	int sensorVal = analogRead(bta2.input2Pin);
-	analog2_10V = sensorVal * lsb_to_20v;
+	int analog2_10V = sensorVal * lsb_to_20v;
 	return sensorVal;
 }
-
-
-	
